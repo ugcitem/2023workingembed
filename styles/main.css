@@ -30,3 +30,18 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.snowflake {
+  position: fixed;
+  font-size: 20px;
+  color: #fff;
+  user-select: none;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes snowfall {
+  to {
+    transform: translateY(100vh);
+  }
+}
